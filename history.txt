@@ -1,0 +1,276 @@
+    1  ls
+    2  ls /data
+    3  ls
+    4  pwd
+    5  mkdir Learning_unix
+    6  ls
+    7  mkdir Learning_unix
+    8  ls
+    9  cd Learning_unix
+   10  mkdir Outer_directory
+   11  cd Outer_directory
+   12  mkdir Inner_directory
+   13  cd Inner_directory/
+   14  cd /
+   15  cd home
+   16  cd c
+   17  cd Users
+   18  cd/
+   19  cd Public
+   20  cd Learning_unix/
+   21  ls
+   22  mkdir Learning_unix
+   23  ls
+   24  cd Learning_unix
+   25  mkdir Outer_directory
+   26  cd Outer_directory
+   27  mkdir Inner_directory
+   28  cd Inner_directory/
+   29  cd /
+   30  cd Learning_unix/
+   31  ls
+   32  cd c
+   33  cd Users
+   34  cd Public
+   35  cd Learning_unix/
+   36  cd ..
+   37  cd ..
+   38  cd ../..
+   39  cd /
+   40  pwd
+   41  cd ~
+   42  pwd
+   43  cd
+   44  pwd
+   45  cd /
+   46  cd ~/Learning_unix
+   47  cd ~/Learning_unix/Outer_directory/
+   48  ls ../../
+   49  ls
+   50  -l /home
+   51  -l /Users
+   52  -l /c
+   53  cd /
+   54  -l /c
+   55  ls
+   56  cd ~Learning_unix
+   57  cd Learning_unix/
+   58  cd c
+   59  cd Users
+   60  cd Learning_unix
+   61  cd Public
+   62  cd Learning_unix
+   63  -l /c
+   64  -l /Users
+   65  -l /Public
+   66  -l /Learning_unix
+   67  ls -l/c
+   68  ls -l /Public
+   69  ls --help
+   70  ls
+   71  ls -l /Outer_directory
+   72  ls -l
+   73  ls -R
+   74  ls -l -t -r
+   75  ls -lh
+   76  man ls
+   77  man cd
+   78  man man
+   79  rmdir Inner_directory/
+   80  ls
+   81  cd Outer_directory
+   82  rmdir Inner_directory/
+   83  cd ..
+   84  rmdir Outer_directory/
+   85  ls
+   86  cd /Public
+   87  cd ~/Public
+   88  ls
+   89  cd/
+   90  cd /
+   91  cd /c
+   92  cd /Users
+   93  ls
+   94  cd /Users
+   95  cd /Public
+   96  cd ~/Users
+   97  cd /
+   98  ls
+   99  cd ..
+  100  cd ../..
+  101  ls
+  102  cd /c
+  103  cd /Users
+  104  ls
+  105  cd /Users/
+  106  cd ~/Learning_unix
+  107  touch heaven.txt
+  108  touch earth.txt
+  109  ls
+  110  rmdir Outer_directory/
+  111  mkdir Temp
+  112  mv heaven.txt Temp/
+  113  mv earth.txt Temp/
+  114  ls
+  115  ls Temp/
+  116  touch rags
+  117  ls
+  118  mv rags Temp/riches
+  119  ls Temp/
+  120  mv Temp/riches Temp/rags
+  121  ls
+  122  mkdir Temp2
+  123  mv Temp2 Temp
+  124  ls Temp/
+  125  mkdir Temp3
+  126  cd /tmp
+  127  mv Temp3 Temp
+  128  ls
+  129  cd ~/Learning_unix
+  130  cd /Public
+  131  ls
+  132  cd Temp
+  133  ls
+  134  rm -i earth.txt heaven.txt rags 
+  135  ls
+  136  rmdir Temp2/Temp3
+  137  rmdir Temp2
+  138  cd ..
+  139  rmdir Temp
+  140  ls
+  141  rmdir Outer_directory
+  142  rmdir Temp3
+  143  cd Outer_directory
+  144  ls
+  145  rmdir Inner_directory
+  146  cd ..
+  147  rmdir Outer_directory
+  148  touch file1
+  149  cp file1 file2
+  150  ls
+  151  touch ~/file3
+  152  ls ~
+  153  cp ~/file3 .
+  154  ls
+  155  man cp
+  156  echo "Call me Ishmael."
+  157  echo "Call me Ishmael." > opening_lines.txt
+  158  ls
+  159  less opening_lines.txt
+  160  less h
+  161  echo "The primroses were over." >> opening_lines.txt
+  162  cat opening_lines.txt
+  163  cat opening_lines.txt > file_copy.txt
+  164  ls
+  165  rm -i file1 file2 file3
+  166  ls
+  167  rm -i file_copy.txt
+  168  ls
+  169  ls -l
+  170  wc opening_lines.txt
+  171  wc -l opening_lines.txt
+  172  nano opening_lines.txt
+  173  echo $USER
+  174  echo $HOME
+  175  echo $PATH
+  176  nano opening_lines.txt
+  177  grep was opening_lines.txt | wc -c
+  178  grep was opening_lines.txt | sort | head -n 3 | wc -c
+  179  ls /
+  180  pwd
+  181  ls../../
+  182  man cd
+  183  ~/ .config/git/config
+  184  [path]/etc/gitconfig
+  185  pwd
+  186  pwd
+  187  git config --list --show-origin
+  188  git config --global user.name "Sinethemba Khoza"
+  189  git config --global user.email sinethembatnkhoza@gmail.com
+  190  git config --global core.editor "code --wait"
+  191  git config --global
+  192  git config --global init.defaultBranch main
+  193  git config --list
+  194  git config user.name
+  195  git config --show-origin
+  196  git config --show-origin rerere.autoUpdate
+  197  git config --show-origin
+  198  git help config
+  199  cd c:/Users/user/my_project
+  200  cd c:/Users/Sinethemba Khoza
+  201  cd c:/Users/Public
+  202  cd c:/Users/Sinethemba_Khoza
+  203  cd c:/Users/Sinethemba-Khoza
+  204  cd c:/Users/"Sinethemba Khoza"
+  205  mkdir my_project
+  206  cd c:/Users/"Sinethemba Khoza"/my_project
+  207  git init
+  208  git add *.c
+  209  git add LICENSE
+  210  git clone https://github.com/libgit2/libgit2
+  211  git clone https://github.com/libgit2/libgit2
+  212  git clone https://github.com/libgit2/libgit2
+  213  git clone
+  214  git clone git://github.com/libgit2/libgit2
+  215  git clone git://github.com/libgit2/libgit2
+  216  git status
+  217  echo 'My Project' > README
+  218  git status
+  219  git add README
+  220  git status
+  221  cd c:/Users/"Sinethemba Khoza"
+  222  mkdir git-basic-exercises
+  223  cd git-basic-exercises
+  224  ls -a
+  225  git init
+  226  ls -a
+  227  git status
+  228  touch README.md
+  229  ls -a
+  230  git status
+  231  git log
+  232  git add README.md
+  233  git status
+  234  git rm --cached README.md
+  235  git status
+  236  git add README.md
+  237  git status
+  238  git commit -m "initial commit"
+  239  git log
+  240  q
+  241  nano README.md
+  242  cat README.md
+  243  git stats
+  244  git status
+  245  git add README.md
+  246  git commit -m "Second commit"
+  247  git status
+  248  nano README.md
+  249  cat README.md
+  250  git status
+  251  git add README.md
+  252  git commit -m "third commit"
+  253  git log
+  254  q
+  255  git checkout d2a9baa1eef3d7eb1dd89b696b2cf240a1ba58f8
+  256  cat README.md
+  257  git checkout main
+  258  cat README.md
+  259  git branch
+  260  git branch milkshake-flavours
+  261  git branch
+  262  git checkout milkshake-flavours
+  263  git branch
+  264  nano milkshakes.md
+  265  git status
+  266  git add milkshake.md
+  267  git add milkshakes.md
+  268  git commit -m "added initail flavours"
+  269  git log
+  270  git checkout main
+  271  git log
+  272  git branch history
+  273  git checkout history
+  274  git log
+  275  git branch
+  276  history > history.txt
